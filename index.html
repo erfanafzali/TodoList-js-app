@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Css/style.css" />
+    <link rel="stylesheet" href="/Css/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+      integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <header>Todo List</header>
+    <section class="container">
+      <div class="main-todo">
+        <form class="todo-form">
+          <input type="text" class="form" maxlength="33" />
+          <button class="form-btn">
+            <i class="bi bi-plus-circle-fill"></i>
+          </button>
+        </form>
+
+        <div class="todo-select">
+          <select name="" class="select">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+          </select>
+        </div>
+      </div>
+      <div class="todo-list-container">
+        <!-- <div class="todo-list"> -->
+        <!-- <div class="todo">
+      <h3 class="todo-text">Text 1</h3>
+      <div class="items">
+        <h4 class="data">1402/1/30</h4>
+        <i class="bi bi-check-square-fill"></i>
+        <i class="bi bi-trash3-fill"></i>
+      </div>
+    </div> -->
+        <!-- </div> -->
+      </div>
+    </section>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
